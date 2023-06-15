@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-ranking {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+.section-ranking .podio {
+  /* background-color: beige; */
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.p {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgRedonda {
+  border-radius: 150px;
+}
+
+.empresa {
+  border: 3px solid #73cd99;
+}
+
+.primero .empresa {
+  width: 150px;
+  height: 150px;
+}
+
+.segundo .empresa,
+.tercero .empresa {
+  width: 125px;
+  height: 125px;
+}
+
+.ranking {
+  width: 75px;
+  height: 75px;
+  margin-top: -30px;
+}
+
+.segundo,
+.tercero {
+  margin-top: 50px;
+}
+
+.table-podio {
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.section-event {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.section-event .ods {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ods .imgsODS {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.section-event .formCrearEvento {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.informacion-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-contact {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.btnContact {
+  background-color: var(--primaryColor);
+  transition: all 400ms;
+}
+
+.btnContact:hover {
+  background-color: var(--darkGreen);
+}
+
+.imgods{
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.imgods:hover{
+  transform: scale(1.1);
+}
+
+.imgodselect{
+  filter: drop-shadow(0 0 10px var(--darkGreen));
+}
+
+.btnCrearEvento{
+  background-color: var(--primaryColor);
+  transition: all 300ms;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #212121;
+}
+
+.btnCrearEvento:hover{
+  background-color: var(--darkGreen);
+  color: white;
+}

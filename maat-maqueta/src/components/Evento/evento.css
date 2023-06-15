@@ -1,0 +1,216 @@
+.eventos {
+  display: flex;
+  flex-direction: column;
+}
+
+.evento {
+  display: flex;
+  flex-direction: row;
+}
+
+.evento div {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.eventoInfo {
+  margin: auto;
+}
+
+.eventoInfo h1 {
+  font-size: 2vw;
+  color: var(--primaryColor);
+  font-weight: 500;
+}
+
+.eventoInfo h2 {
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 600;
+  width: 30vw;
+  margin: auto;
+}
+
+.eventoInfo h3 {
+  font-size: 1.2vw;
+  width: 32vw;
+  text-align: justify;
+  margin: auto;
+}
+
+.verMas {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1vw;
+}
+
+.verMas p {
+  color: var(--primaryColor);
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.verMas img {
+  height: 1vw;
+  width: 1vw;
+  filter: hue-rotate(90deg);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.5vw;
+}
+
+.postEventos {
+  margin: 1vw;
+}
+
+.postEvento{
+  margin-top: 1vw;
+  border: 1px solid var(--primaryColor);
+  border-radius: 15px;
+  padding: 1vw;
+}
+
+.postEventos .post h6 {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.postEventos .post h6 span {
+  color: var(--primaryColor);
+}
+
+.tituloPost {
+  font-size: 2vw;
+  font-weight: 650;
+}
+
+.iconosPosts {
+  display: flex;
+  flex-direction: row;
+}
+
+.nombreUsuario {
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.postIconosImg {
+  margin-left: 0.5vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 1vw;
+  width: 1vw;
+}
+
+.imgPost {
+  height: 5vw;
+  width: 5vw;
+}
+
+.insertarComentario {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.insertarComentario .miUsuario {
+  width: 15%;
+  display: flex;
+  display: row;
+}
+
+.insertarComentario .miUsuario .img {
+  width: 30%;
+}
+
+.insertarComentario .miUsuario .info {
+  margin-left: 1vw;
+  width: 75%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.insertarComentario .miUsuario .info h1 {
+  font-size: 1vw;
+}
+
+.insertarComentario .miUsuario .info h2 {
+  font-size: 0.9vw;
+}
+
+.insertarComentario .comentario{
+  width: 85%;
+}
+
+.insertarComentario input {
+  border: 1px solid var(--primaryColor);
+  border-radius: 10px;  height: 100%;
+  width: 100%;
+}
+
+.comentariosH1{
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-top: 0.5vw;
+}
+
+.comentarioPost{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 1vw;
+}
+
+.iconosComentarios{
+  display: flex;
+  flex-direction: row;
+}
+
+.comentarioPost .usuarioComentario{
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 10px;
+  margin-right: 1vw;
+}
+
+.comentarioPost .usuarioComentario .img{
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30%;
+}
+
+.comentarioPost .usuarioComentario .info{
+  width: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1vw;
+}
+
+.comentarioPost .usuarioComentario .info h1 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.comentarioPost .usuarioComentario .info h2 {
+  font-size: 0.9vw;
+  font-weight: 450;
+
+}
+
+.comentarioPost .content{
+  width: 85%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.comentarioPost .iconosComentarios{
+  width: 5%;
+
+  
+}

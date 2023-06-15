@@ -1,0 +1,14 @@
+.login{
+    display: flex;
+    flex-direction: row;
+    /* background-color: var(--primaryColor); */
+    
+}
+
+.imagen{
+    width: 40%;
+}
+
+.form{
+    width: 60%;
+}

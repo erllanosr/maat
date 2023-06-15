@@ -1,0 +1,10 @@
+.divMainApartadoContent3{
+    background-color: rgb(238, 238, 238);
+}
+
+.btnStartNow{
+    background-color: var(--primaryColor);
+}
+.txtMarca{
+    color: var(--primaryColor);
+}
